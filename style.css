@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+      padding: 0;
+      margin: 0;
+      font-family: "poppins",sans-serif;
+}
+
+body {
+      background: #669bbc;
+      text-align: center;
+}
+
+.container {
+      height: 70vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.Game {
+      height: 60vmin;
+      width: 60vmin;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5vmin;
+      /* margin-top: 30vmin; */
+}
+
+.Box {
+      height: 18vmin;
+      width: 18vmin;
+      border-radius: 1.8vmin;
+      border: none;
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+      background: #fdf0d5;
+      color: #283845;
+      font-size: 8vmin;
+}
+
+.reset-btn {
+      padding: 1rem;
+      border-radius: 1.2vmin;
+      font-size: 1rem;
+      border: none;
+      background: #202c39;
+      color: #fff;
+      cursor: pointer;
+}
+
+.new-btn {
+      padding: 1rem;
+      border-radius: 1.2rem;
+      font-size: 1rem;
+      border: none;
+      background: #202c39;
+      color: #fff;
+      cursor: pointer;
+}
+.msg-container{
+      height: 100vmin;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 4rem;
+}
+.msg{
+      font-size: 5vmin;
+      color: #fdf0d5;
+}
+.hide {
+      display: none;
+}
